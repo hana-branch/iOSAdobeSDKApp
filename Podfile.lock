@@ -1,0 +1,57 @@
+PODS:
+  - AdobeBranchExtension (4.0.0):
+    - AEPCore (~> 5.1.0)
+    - AEPIdentity (~> 5.1.0)
+    - AEPLifecycle (~> 5.1.0)
+    - AEPSignal (~> 5.1.0)
+    - BranchSDK (~> 3.4.4)
+  - AEPAnalytics (5.0.2):
+    - AEPCore (< 6.0.0, >= 5.1.0)
+  - AEPCore (5.1.0):
+    - AEPRulesEngine (< 6.0.0, >= 5.0.0)
+    - AEPServices (< 6.0.0, >= 5.1.0)
+  - AEPIdentity (5.1.0):
+    - AEPCore (< 6.0.0, >= 5.1.0)
+  - AEPLifecycle (5.1.0):
+    - AEPCore (< 6.0.0, >= 5.1.0)
+  - AEPRulesEngine (5.0.0)
+  - AEPServices (5.2.0)
+  - AEPSignal (5.1.0):
+    - AEPCore (< 6.0.0, >= 5.1.0)
+  - AEPUserProfile (5.0.0):
+    - AEPCore (< 6.0.0, >= 5.0.0)
+  - BranchSDK (3.4.4)
+
+DEPENDENCIES:
+  - AdobeBranchExtension
+  - AEPAnalytics
+  - AEPUserProfile
+
+SPEC REPOS:
+  trunk:
+    - AdobeBranchExtension
+    - AEPAnalytics
+    - AEPCore
+    - AEPIdentity
+    - AEPLifecycle
+    - AEPRulesEngine
+    - AEPServices
+    - AEPSignal
+    - AEPUserProfile
+    - BranchSDK
+
+SPEC CHECKSUMS:
+  AdobeBranchExtension: fd4b1276564e6704bea1eaa9ba1d571b9d836831
+  AEPAnalytics: 12ebcd98d08852d0ca824f91433336875e58335a
+  AEPCore: 55489e1c4e48a88659055f8e96290f2cccce9747
+  AEPIdentity: 82d522263af982a6aa8a6c792c0a872d68d9b638
+  AEPLifecycle: 5312ce2eda5b80fa704271421d81cfada765156d
+  AEPRulesEngine: fe5800653a4bee07b1e41e61b4d5551f0dba557b
+  AEPServices: d959143d13fde7e8464c19527df6baacdef765ce
+  AEPSignal: eb42bb0148bd460b383c5a37a8842f9f20ceba73
+  AEPUserProfile: cf36305d683d993d528337a46b7a269029b63e5d
+  BranchSDK: 28bec34fb99c53ab8e86b7bf69cc55a4505fe0b3
+
+PODFILE CHECKSUM: 0193987f3ff34455ebe802c8f2090e917f4ed39b
+
+COCOAPODS: 1.15.2
